@@ -145,7 +145,7 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ToolBarRemoverDebug|x86'">
-    <OutputPath>bin\x86\ToolBarRemoverDebug\</OutputPath>
+    <OutputPath>bin\ToolBarRemoverDebug\</OutputPath>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ToolBarRemoverDebug|x64'">

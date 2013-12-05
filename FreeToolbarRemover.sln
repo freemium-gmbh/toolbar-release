@@ -99,8 +99,8 @@ Global
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.Release|x86.Build.0 = Release|x86
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Any CPU.ActiveCfg = ToolBarRemoverDebug|x86
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Any CPU.Build.0 = ToolBarRemoverDebug|x86
-		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|Any CPU
-		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|Any CPU
+		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|x86
+		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|x86
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|x64.ActiveCfg = ToolBarRemoverDebug|x86
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|x86.ActiveCfg = ToolBarRemoverDebug|x86
 		{0D9542F5-0E0D-4F7E-BB6C-6803DAC2D838}.ToolBarRemoverDebug|x86.Build.0 = ToolBarRemoverDebug|x86
@@ -253,8 +253,8 @@ Global
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Any CPU.ActiveCfg = ToolBarRemoverDebug|x86
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Any CPU.Build.0 = ToolBarRemoverDebug|x86
-		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|Any CPU
-		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|Any CPU
+		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|x86
+		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|x86
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|x64.ActiveCfg = Debug|Any CPU
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverDebug|x86.ActiveCfg = Debug|Any CPU
 		{AE26C37C-32AE-4C7B-AE5D-73AA5C0959CF}.ToolBarRemoverRelease|Any CPU.ActiveCfg = Release|Any CPU
@@ -409,8 +409,8 @@ Global
 		{946408FB-7747-4485-935E-41F193994532}.Release|x86.Build.0 = Release|x86
 		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Any CPU.ActiveCfg = ToolBarRemoverDebug|Any CPU
 		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Any CPU.Build.0 = ToolBarRemoverDebug|Any CPU
-		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|Any CPU
-		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|Any CPU
+		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Mixed Platforms.ActiveCfg = ToolBarRemoverDebug|x86
+		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|Mixed Platforms.Build.0 = ToolBarRemoverDebug|x86
 		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|x64.ActiveCfg = ToolBarRemoverDebug|x64
 		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|x64.Build.0 = ToolBarRemoverDebug|x64
 		{946408FB-7747-4485-935E-41F193994532}.ToolBarRemoverDebug|x86.ActiveCfg = ToolBarRemoverDebug|x86

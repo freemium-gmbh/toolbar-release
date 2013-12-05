@@ -156,6 +156,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ToolBarRemoverDebug|x86'">
     <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\ToolBarRemoverDebug\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
