@@ -242,6 +242,8 @@ namespace FreemiumUtilities.IEToolbarRemover
             {
                 if (string.IsNullOrEmpty(name))
                     return;
+                if (name.StartsWith("Java")||name.StartsWith("Linked Notes")||name.StartsWith("OneNote"))
+                    return;
                 IEToolbarAndAddOnFound.Add(new ExplorerToolbarAndAddOn(id, name, path, enabled, typeName));
                 ProblemsCount++;
                 int progressPercentage = (int)((double)sizeScanned / progressMax * 100);

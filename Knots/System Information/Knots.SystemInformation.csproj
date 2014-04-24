@@ -586,12 +586,12 @@
     <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
     <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
-	<ApplicationIcon>Resources\GBicon.ico</ApplicationIcon>
+	<ApplicationIcon>Resources\ToolbarRemover.ico</ApplicationIcon>
   </PropertyGroup>
  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ToolBarRemoverRelease|AnyCPU'">
     <OutputPath>bin\ToolBarRemoverRelease\</OutputPath>
-	<ApplicationIcon>Resources\GBicon.ico</ApplicationIcon>
+	<ApplicationIcon>Resources\ToolbarRemover.ico</ApplicationIcon>
   </PropertyGroup>
 
   <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />

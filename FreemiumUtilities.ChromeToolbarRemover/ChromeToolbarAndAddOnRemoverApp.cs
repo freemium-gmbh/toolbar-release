@@ -99,9 +99,21 @@ namespace FreemiumUtilities.ChromeToolbarRemover
         {
             progressMax = 1;
             ChromeToolbarAndAddOnFound.Clear();
+            List<ChromeExtension> ToBeFilteredOut = new List<ChromeExtension>();
             try
             {
                 ChromeToolbarAndAddOnFound = ChromeExtension.List().ToList();
+                foreach( ChromeExtension ex in ChromeToolbarAndAddOnFound )
+                {
+                    if (ex.Name.Equals("Chrome") || ex.Name.Equals("YouTube") || ex.Name.StartsWith("Google"))
+                    {
+                        ToBeFilteredOut.Add(ex);
+                    }
+                }
+                foreach (ChromeExtension ex in ToBeFilteredOut)
+                {
+                    ChromeToolbarAndAddOnFound.Remove(ex);
+                }
                 ProblemsCount = ChromeToolbarAndAddOnFound.Count;
                 scanBackgroundWorker.ReportProgress(100, "Done"); //reports a percentage between 0 and 100
             }
