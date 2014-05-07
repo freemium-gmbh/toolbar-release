@@ -6,7 +6,7 @@
 		xmlns:models="clr-namespace:FreeToolbarRemover.Models" xmlns:routine="clr-namespace:FreeToolbarRemover.Routine"
 		xmlns:viewmodels="clr-namespace:FreeToolbarRemover.ViewModels" Name="AppMainWindow" Title="Free Toolbar Remover"
 		Width="800" Height="550" Engine:LocalizeDictionary.DesignCulture="en"
-		Icon="FSUIcon.ico" Loaded="MainWindowLoaded" SizeToContent="WidthAndHeight"
+		Icon="/FreeToolbarRemover;component/ToolbarRemover.ico" Loaded="MainWindowLoaded" SizeToContent="WidthAndHeight"
 		Style="{StaticResource MainWindowStyle}" WindowStartupLocation="CenterScreen" mc:Ignorable="d" WindowState="Minimized">
     <Window.Resources>
         <routine:ImageConverter x:Key="ImageConverter" />
@@ -213,8 +213,9 @@
                                                            Source="{Binding Path=Icon,
 														   Converter={StaticResource ImageConverter}}"
 														   Style="{StaticResource FunctionalButtonImage}" 
-                                                         
-                                                           
+                                                          RenderOptions.BitmapScalingMode="NearestNeighbor"
+                                                          RenderOptions.EdgeMode="Aliased"
+                                                          SnapsToDevicePixels="False"
                                                            />
                                                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                                                         <TextBlock Style="{StaticResource CheckBoxContentTitle}" Text="{Binding Title}" />
