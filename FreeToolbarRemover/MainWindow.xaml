@@ -213,9 +213,9 @@
                                                            Source="{Binding Path=Icon,
 														   Converter={StaticResource ImageConverter}}"
 														   Style="{StaticResource FunctionalButtonImage}" 
-                                                          RenderOptions.BitmapScalingMode="NearestNeighbor"
-                                                          RenderOptions.EdgeMode="Aliased"
-                                                          SnapsToDevicePixels="False"
+                                                          RenderOptions.BitmapScalingMode="HighQuality"
+                                                          RenderOptions.EdgeMode="Unspecified"
+                                                          SnapsToDevicePixels="True"
                                                            />
                                                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                                                         <TextBlock Style="{StaticResource CheckBoxContentTitle}" Text="{Binding Title}" />
